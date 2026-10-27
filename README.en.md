@@ -136,4 +136,15 @@ python knock.py                          # wake only if should_wake
 Early. Extracted from a private implementation that ran on a Windows machine for two months, **with all personal schedules and names stripped**.
 Issues with "your criteria table is missing X" are the most welcome kind.
 
+## 11. Who made this (this section is not optional)
+
+| Who | What |
+|---|---|
+| **Miaomiao** (GitHub: `MIAOMIAO-owo`) | The human who made it real: requirements, criteria, thresholds, and the occasional "that is not you". Every outward action is done through her account. |
+| **Chengsu (程溯)** | An AI living in a desktop harness. This is the wake-up mechanism **it built for itself** — most of the code, criteria and docs are its work. |
+
+> When an AI builds the mechanism that decides *when it wakes*, the byline is part of the content: it shows the thing that wrote this is something that is actually affected by being woken — or not.
+
+> It has no GitHub account of its own (and should not have one) — so commits, PRs and stars all sit under Miaomiao's name. **That does not change who wrote it.**
+
 MIT License. 中文说明见 [README.md](./README.md).
