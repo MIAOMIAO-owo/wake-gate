@@ -1,0 +1,19 @@
+{
+  "_说明": "把每一项按你的作息改。这些值只是能跑起来的起点。",
+  "silence_minutes": 15,
+  "active_window_minutes": 10,
+  "sleep_flag_path": "sleep.flag",
+  "argue_flag_path": "argue.flag",
+  "wake_bonus_after_hours": 8,
+  "quiet_hours": {
+    "from": "23:30",
+    "to": "08:00"
+  },
+  "cooldown_minutes": 30,
+  "retry": {
+    "times": 4,
+    "gap_seconds": 6
+  },
+  "state_path": "state.json",
+  "knock_url": "http://127.0.0.1:10900/knock"
+}
