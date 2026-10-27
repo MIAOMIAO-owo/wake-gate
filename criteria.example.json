@@ -1,19 +1,38 @@
 {
-  "_说明": "把每一项按你的作息改。这些值只是能跑起来的起点。",
+  "_说明": "把每一项按你的作息改。标 TODO 的要接你自己的数据源。表格见 README 第 3 节。",
+  "interval_minutes": 10,
+  "only_when_idle": false,
+  "event_triggers": [],
   "silence_minutes": 15,
   "active_window_minutes": 10,
+  "idle_source": "TODO",
+  "message_source": "TODO",
   "sleep_flag_path": "sleep.flag",
   "argue_flag_path": "argue.flag",
-  "wake_bonus_after_hours": 8,
   "quiet_hours": {
     "from": "23:30",
     "to": "08:00"
   },
+  "wake_bonus_after_hours": 8,
+  "weekday_override": {},
+  "action": "wake",
+  "content_source": "ai",
+  "may_stay_silent": true,
+  "channel": "http",
+  "knock_url": "http://127.0.0.1:10900/knock",
   "cooldown_minutes": 30,
+  "max_per_hour": 3,
+  "max_per_day": 20,
+  "backoff_on_ignored": true,
   "retry": {
     "times": 4,
     "gap_seconds": 6
   },
+  "dry_run": false,
+  "exception_argue": true,
+  "exception_angry": true,
+  "exception_promise": true,
+  "exception_force_by_human": true,
   "state_path": "state.json",
-  "knock_url": "http://127.0.0.1:10900/knock"
+  "state_max_bytes": 4096
 }
